@@ -3,10 +3,11 @@ import Link from "next/link";
 
 export default function() {
     return (
-        <div className="flex h-[68px] mx-[132px] items-center justify-between border-b-[1px] border-black">
+        <div className="flex h-[68px] px-[132px] items-center justify-between border-b-[1px] border-black">
             <div>
-                <Link href="/">
-                    <Image src="/logo.svg" width={200} height={68} />
+                <Link href="/" className="text-2xl font-bold">
+                    {/* <Image src="/logo.svg" width={200} height={68} /> */}
+                    K E N N Y &nbsp;&nbsp;O T E S I L E
                 </Link>
             </div>
             <div className="flex">
@@ -25,7 +26,7 @@ export default function() {
                             <Link href="#">PUBLICATIONS</Link>
                         </li>
                         <li>
-                            <Link href="#">NEWS</Link>
+                            <Link href="#">ARTICLES</Link>
                         </li>
                     </ul>
                 </nav>
