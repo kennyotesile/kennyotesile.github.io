@@ -27,7 +27,7 @@ export default function Home() {
                         <Image src="/homepage-hero_568x408.jpeg" alt="" width={568} height={408} />
                     </div>
                     <div className="w-1/2">
-                        <p className="font-bold">WORKS</p>
+                        <p className="font-bold text-sm">WORKS</p>
                         <br />
                         <h1 className="text-6xl font-bold">Introducing ChatGPT</h1>
                         <br />
@@ -35,7 +35,7 @@ export default function Home() {
                         <br />
                         <p>By <span className="font-bold">Kenny Otesile</span></p>
                         <br />
-                        <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white">Read post</Link>
+                        <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Learn more</Link>
                     </div>
                 </section>
 

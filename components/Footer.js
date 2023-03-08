@@ -11,7 +11,7 @@ export default function() {
                         K E N N Y &nbsp;&nbsp;O T E S I L E
                     </Link>
                 </div>
-                <div className="flex items-center gap-x-4">
+                <div className="flex items-center gap-x-8">
                     <Link href="#">
                         <ion-icon name="logo-youtube" size="small"></ion-icon>
                     </Link>
@@ -32,9 +32,9 @@ export default function() {
 
             <br />
 
-            <div className="flex gap-x-10">
+            <div className="flex gap-x-8">
                 <p className="text-sm text-gray-200 leading-[22px]">&copy; 2023 Kehinde Otesile</p>
-                <ul className="flex gap-x-10">
+                <ul className="flex gap-x-8">
                     <li>
                         <Link href="#" className="text-sm text-gray-200">Contact</Link>
                     </li>
