@@ -12,19 +12,19 @@ export default function() {
                     </Link>
                 </div>
                 <div className="flex items-center gap-x-8">
-                    <Link href="#">
+                    <Link href="https://youtube.com/@kennyotesile" target="_blank">
                         <ion-icon name="logo-youtube" size="small"></ion-icon>
                     </Link>
-                    <Link href="#">
+                    <Link href="https://twitter.com/kennyotesile" target="_blank">
                         <ion-icon name="logo-twitter" size="small"></ion-icon>
                     </Link>
-                    <Link href="#">
+                    <Link href="https://linkedin.com/in/kennyotesile" target="_blank">
                         <ion-icon name="logo-linkedin" size="small"></ion-icon>
                     </Link>
-                    <Link href="#">
+                    <Link href="https://instagram.com/kennyotesile" target="_blank">
                         <ion-icon name="logo-instagram" size="small"></ion-icon>
                     </Link>
-                    <Link href="#">
+                    <Link href="https://facebook.com/thekennyotesile" target="_blank">
                         <ion-icon name="logo-facebook" size="small"></ion-icon>
                     </Link>
                 </div>
