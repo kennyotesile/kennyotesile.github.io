@@ -29,11 +29,11 @@ export default function Home() {
                     <div className="w-1/2">
                         <p className="font-bold text-sm">WORKS</p>
                         <br />
-                        <h1 className="text-6xl font-bold">Advanced search functionality for a commerce management app</h1>
+                        <h1 className="text-6xl font-bold mt-[-8px]">Advanced search functionality for a commerce management app</h1>
                         <br />
                         <p>I designed and implemented a robust and scalable search system that allowed users to quickly and easily search and filter products by various attributes such as price, color, brand, and category.</p>
                         <br />
-                        <p className="text-sm text-gray-600">2023</p>
+                        <p className="text-sm text-gray-600 mt-[-8px]">2023</p>
                         <br />
                         <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Learn more</Link>
                     </div>
