@@ -36,6 +36,9 @@ export default function() {
                 <p className="text-sm text-gray-200 leading-[22px]">&copy; 2023 Kehinde Otesile</p>
                 <ul className="flex gap-x-8">
                     <li>
+                        <Link href="#" className="text-sm text-gray-200">About</Link>
+                    </li>
+                    <li>
                         <Link href="#" className="text-sm text-gray-200">Contact</Link>
                     </li>
                 </ul>

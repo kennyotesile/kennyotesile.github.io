@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function() {
     return (
-        <div className="flex h-[68px] px-[132px] items-center justify-between border-b-[1px] border-black">
+        <div className="flex h-[68px] mx-[132px] items-center justify-between border-b-[1px] border-black">
             <div>
                 <Link href="/" className="text-2xl font-bold">
                     {/* <Image src="/logo.svg" width={200} height={68} /> */}
@@ -31,6 +31,13 @@ export default function() {
                     </ul>
                 </nav>
                 <ul className="flex items-center gap-x-8">
+                    <li>
+                        <Link href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                        </Link>
+                    </li>
                     {/* <li>
                         <Link href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
