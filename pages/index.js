@@ -24,7 +24,8 @@ export default function Home() {
                 
                 <section className="flex py-[24px] px-[132px] gap-[24px] items-center">
                     <div className="w-1/2">
-                        <Image src="/homepage-hero_568x408.jpeg" alt="" width={568} height={408} />
+                        {/* <Image src="/homepage-hero_568x408.jpeg" alt="" width={568} height={408} /> */}
+                        <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
                     </div>
                     <div className="w-1/2">
                         <p className="font-bold text-sm">WORKS</p>
@@ -35,7 +36,7 @@ export default function Home() {
                         <br />
                         <p className="text-sm text-gray-600 mt-[-8px]">2023</p>
                         <br />
-                        <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Learn more</Link>
+                        <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                     </div>
                 </section>
 
