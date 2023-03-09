@@ -30,11 +30,11 @@ export default function Home() {
                     <div className="w-1/2">
                         <p className="font-bold text-sm">WORKS</p>
                         <br />
-                        <h1 className="text-6xl font-bold">Advanced search functionality for a business management engine</h1>
+                        <h1 className="text-5xl font-bold">Advanced search functionality for a business management engine</h1>
                         <br />
                         <p>I designed and implemented a robust and scalable search system that allowed users to quickly and easily search and filter products by various attributes such as price, color, brand, and category.</p>
                         <br />
-                        <p className="text-gray-600">Java, Spring Data Elasticsearch</p>
+                        <p className="text-gray-600">Java, Spring Data Elasticsearch &nbsp;•&nbsp; Unulax Business</p>
                         <br />
                         <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                     </div>
@@ -51,16 +51,16 @@ export default function Home() {
                             <br />
                             <h2 className="font-bold text-2xl">Unulax Business: A business management engine</h2>
                             <br />
-                            <p className="text-gray-200">JavaScript, React, Recoil, Java, Spring</p>
+                            <p className="text-gray-200">Ecommerce, CMS, CRM, Java, JavaScript &nbsp;•&nbsp; Unulax</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-white hover:bg-white hover:text-black font-bold">Read more</Link>
                         </div>
                         <div className="w-1/3">
                             <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
                             <br />
-                            <h2 className="font-bold text-2xl">Amobern: A robust ecommerce platform</h2>
+                            <h2 className="font-bold text-2xl">Amobern Pay: A robust payments solution</h2>
                             <br />
-                            <p className="text-gray-200">JavaScript, React, Recoil, Java, Spring</p>
+                            <p className="text-gray-200">FinTech, Java, JavaScript &nbsp;•&nbsp; Amobern Technologies</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-white hover:bg-white hover:text-black font-bold">Read more</Link>
                         </div>
@@ -69,7 +69,7 @@ export default function Home() {
                             <br />
                             <h2 className="font-bold text-2xl">Apostle Niyi Makinde: An interactive media streaming and articles app</h2>
                             <br />
-                            <p className="text-gray-200">JavaScript, React Native, Recoil, Java, Spring</p>
+                            <p className="text-gray-200">Full stack, ML, JavaScript, Java &nbsp;•&nbsp; Apostle Niyi Makinde</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-white hover:bg-white hover:text-black font-bold">Read more</Link>
                         </div>
@@ -87,7 +87,7 @@ export default function Home() {
                             <br />
                             <h2 className="font-bold text-2xl">Advanced search functionality for a business management engine</h2>
                             <br />
-                            <p className="text-gray-600">Java, Spring Data Elasticsearch</p>
+                            <p className="text-gray-600">Java, Spring Data Elasticsearch &nbsp;•&nbsp; Unulax Business</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                         </div>
@@ -96,7 +96,7 @@ export default function Home() {
                             <br />
                             <h2 className="font-bold text-2xl">Advanced search functionality for a business management engine</h2>
                             <br />
-                            <p className="text-gray-600">Java, Spring Data Elasticsearch</p>
+                            <p className="text-gray-600">Java, Spring Data Elasticsearch &nbsp;•&nbsp; Unulax Business</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                         </div>
@@ -105,7 +105,7 @@ export default function Home() {
                             <br />
                             <h2 className="font-bold text-2xl">Advanced search functionality for a business management engine</h2>
                             <br />
-                            <p className="text-gray-600">Java, Spring Data Elasticsearch</p>
+                            <p className="text-gray-600">Java, Spring Data Elasticsearch &nbsp;•&nbsp; Unulax Business</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                         </div>
@@ -114,7 +114,7 @@ export default function Home() {
                             <br />
                             <h2 className="font-bold text-2xl">Advanced search functionality for a business management engine</h2>
                             <br />
-                            <p className="text-gray-600">Java, Spring Data Elasticsearch</p>
+                            <p className="text-gray-600">Java, Spring Data Elasticsearch &nbsp;•&nbsp; Unulax Business</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                         </div>
@@ -130,36 +130,36 @@ export default function Home() {
                         <div className="w-1/4">
                             <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
                             <br />
-                            <h2 className="font-bold text-2xl">Advanced search functionality for a business management engine</h2>
+                            <h2 className="font-bold text-2xl">Understanding current security methods in software engineering: Authentication, authorization, tokens, etc.</h2>
                             <br />
-                            <p className="text-gray-600">Java, Spring Data Elasticsearch</p>
-                            <br />
-                            <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
-                        </div>
-                        <div className="w-1/4">
-                            <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
-                            <br />
-                            <h2 className="font-bold text-2xl">Advanced search functionality for a business management engine</h2>
-                            <br />
-                            <p className="text-gray-600">Java, Spring Data Elasticsearch</p>
+                            <p>This is an excerpt of the body of this article.</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                         </div>
                         <div className="w-1/4">
                             <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
                             <br />
-                            <h2 className="font-bold text-2xl">Advanced search functionality for a business management engine</h2>
+                            <h2 className="font-bold text-2xl">Understanding current security methods in software engineering: Authentication, authorization, tokens, etc.</h2>
                             <br />
-                            <p className="text-gray-600">Java, Spring Data Elasticsearch</p>
+                            <p>This is an excerpt of the body of this article.</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                         </div>
                         <div className="w-1/4">
                             <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
                             <br />
-                            <h2 className="font-bold text-2xl">Advanced search functionality for a business management engine</h2>
+                            <h2 className="font-bold text-2xl">Understanding current security methods in software engineering: Authentication, authorization, tokens, etc.</h2>
                             <br />
-                            <p className="text-gray-600">Java, Spring Data Elasticsearch</p>
+                            <p>This is an excerpt of the body of this article.</p>
+                            <br />
+                            <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
+                        </div>
+                        <div className="w-1/4">
+                            <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
+                            <br />
+                            <h2 className="font-bold text-2xl">Understanding current security methods in software engineering: Authentication, authorization, tokens, etc.</h2>
+                            <br />
+                            <p>This is an excerpt of the body of this article.</p>
                             <br />
                             <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                         </div>

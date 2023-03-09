@@ -14,7 +14,7 @@ export default function() {
                 <nav className="flex items-center">
                     <ul className="flex items-center gap-x-8 mr-8">
                         <li>
-                            <Link href="#">WORKS</Link>
+                            <Link href="/works">WORKS</Link>
                         </li>
                         {/* <li>
                             <Link href="#">RESEARCH</Link>
@@ -23,10 +23,10 @@ export default function() {
                             <Link href="#">PUBLICATIONS</Link>
                         </li> */}
                         <li>
-                            <Link href="#">ARTICLES</Link>
+                            <Link href="/articles">ARTICLES</Link>
                         </li>
                         <li>
-                            <Link href="#">COMPANIES</Link>
+                            <Link href="/companies">COMPANIES</Link>
                         </li>
                     </ul>
                 </nav>
