@@ -1,6 +1,6 @@
 import Head from "next/head"
 import styles from "../styles/Home.module.css"
-import { DM_Sans } from "@next/font/google"
+import { DM_Sans } from "next/font/google"
 import Image from "next/image"
 import Header from "@/components/Header.js"
 import Link from "next/link"
@@ -43,7 +43,7 @@ export default function Home() {
                 <section id="works_products" className="flex flex-col py-[48px] px-[132px] gap-[24px] bg-black text-white">
                     <div className="flex justify-between">
                         <p className="text-lg font-bold">PRODUCTS</p>
-                        <Link href="#" className="font-bold">More products</Link>
+                        <Link href="#">More products</Link>
                     </div>
                     <div className="flex gap-[24px]">
                         <div className="w-1/3">
@@ -79,7 +79,7 @@ export default function Home() {
                 <section id="works_features" className="flex flex-col py-[48px] px-[132px] gap-[24px]">
                     <div className="flex justify-between">
                         <p className="text-lg font-bold">FEATURES</p>
-                        <Link href="#" className="font-bold">More features</Link>
+                        <Link href="#">More features</Link>
                     </div>
                     <div className="flex gap-[24px]">
                         <div className="w-1/4">
@@ -124,7 +124,7 @@ export default function Home() {
                 <section id="articles" className="flex flex-col py-[48px] px-[132px] gap-[24px]">
                     <div className="flex justify-between">
                         <p className="text-lg font-bold">ARTICLES</p>
-                        <Link href="#" className="font-bold">More articles</Link>
+                        <Link href="#">More articles</Link>
                     </div>
                     <div className="flex gap-[24px]">
                         <div className="w-1/4">

@@ -1,6 +1,6 @@
 import Head from "next/head"
 import styles from "../styles/Home.module.css"
-import { DM_Sans } from "@next/font/google"
+import { DM_Sans } from "next/font/google"
 import Image from "next/image"
 import Header from "@/components/Header.js"
 import Link from "next/link"
