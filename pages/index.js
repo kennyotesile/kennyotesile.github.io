@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Kenny Otesile</title>
+                <title>Kenny Otesile – Entrepreneur computer scientist</title>
             </Head>
             
             <div className={dmSans.className}>
@@ -39,7 +39,7 @@ export default function Home() {
                     </section>
                 </Link> */}
 
-                <section id="hero" className="flex flex-col my-[64px] px-[132px] gap-[24px] items-center cursor-pointer" onClick={() => window.location.href=""}>
+                <section id="hero" className="flex flex-col my-[64px] px-[132px] gap-[24px] items-center cursor-pointer" onClick={() => window.location.href="works/unulax-business"}>
                     <div className="mb-8 px-40">
                         <h1 className="text-6xl font-bold text-center">Unulax Business: An enterprise business management engine</h1>
                         <br />
@@ -48,7 +48,7 @@ export default function Home() {
                         <p className="text-gray-600 text-center">Ecommerce, CMS, CRM &nbsp;•&nbsp; Java, JavaScript &nbsp;•&nbsp; Unulax</p>
                         <br />
                         <div className="text-center mt-2">
-                            <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
+                            <Link href="/works/unulax-business" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                         </div>
                     </div>
                     <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
