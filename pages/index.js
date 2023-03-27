@@ -39,22 +39,20 @@ export default function Home() {
                     </section>
                 </Link> */}
 
-                <Link href="#">
-                    <section id="hero" className="flex flex-col my-[64px] px-[132px] gap-[24px] items-center">
-                        <div className="mb-8 px-40">
-                            <h1 className="text-6xl font-bold text-center">Unulax Business: An enterprise business management engine</h1>
-                            <br />
-                            <p className="text-center text-lg">I designed and developed a SaaS solution for business owners and managers to efficiently manage inventory, ecommerce, CRM, finance and other tasks.</p>
-                            <br />
-                            <p className="text-gray-600 text-center">Ecommerce, CMS, CRM &nbsp;•&nbsp; Java, JavaScript &nbsp;•&nbsp; Unulax</p>
-                            <br />
-                            <div className="text-center mt-2">
-                                <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
-                            </div>
+                <section id="hero" className="flex flex-col my-[64px] px-[132px] gap-[24px] items-center cursor-pointer" onClick={() => window.location.href=""}>
+                    <div className="mb-8 px-40">
+                        <h1 className="text-6xl font-bold text-center">Unulax Business: An enterprise business management engine</h1>
+                        <br />
+                        <p className="text-center text-lg">I designed and developed a SaaS solution for business owners and managers to efficiently manage inventory, ecommerce, CRM, finance and other tasks.</p>
+                        <br />
+                        <p className="text-gray-600 text-center">Ecommerce, CMS, CRM &nbsp;•&nbsp; Java, JavaScript &nbsp;•&nbsp; Unulax</p>
+                        <br />
+                        <div className="text-center mt-2">
+                            <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
                         </div>
-                        <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
-                    </section>
-                </Link>
+                    </div>
+                    <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
+                </section>
 
                 <section id="works_products" className="flex flex-col py-[48px] px-[132px] gap-[24px] bg-black text-white">
                     <div className="flex justify-between">
