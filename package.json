@@ -1,11 +1,8 @@
 {
   "name": "kenny-otesile-web",
   "version": "0.1.0",
-  "homepage": "https://kennyotesile.github.io",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -25,7 +22,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "eslint-plugin-baseui": "^12.2.0",
-    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7"
   }
