@@ -22,23 +22,22 @@ export default function Home() {
             <div className={dmSans.className}>
                 <Header />
                 
-                <section id="hero" className="flex py-[48px] px-[132px] gap-[24px] items-center">
-                    <div className="w-1/2">
-                        {/* <Image src="/homepage-hero_568x408.jpeg" alt="" width={568} height={408} /> */}
+                <Link href="#">
+                    <section id="hero" className="flex flex-col my-[64px] px-[132px] gap-[24px] items-center">
+                        <div className="mb-8">
+                            <h1 className="text-5xl font-bold text-center mx-48">Advanced search functionality for a business management engine</h1>
+                            <br />
+                            <p className="text-center mx-48">I designed and implemented a robust and scalable search system that allowed users to quickly and easily search and filter products by various attributes such as price, color, brand, and category.</p>
+                            <br />
+                            <p className="text-gray-600 text-center">Java, Spring Data Elasticsearch &nbsp;•&nbsp; Unulax Business</p>
+                            <br />
+                            <div className="text-center mt-2">
+                                <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
+                            </div>
+                        </div>
                         <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
-                    </div>
-                    <div className="w-1/2">
-                        <p className="font-bold text-sm">WORKS</p>
-                        <br />
-                        <h1 className="text-5xl font-bold">Advanced search functionality for a business management engine</h1>
-                        <br />
-                        <p>I designed and implemented a robust and scalable search system that allowed users to quickly and easily search and filter products by various attributes such as price, color, brand, and category.</p>
-                        <br />
-                        <p className="text-gray-600">Java, Spring Data Elasticsearch &nbsp;•&nbsp; Unulax Business</p>
-                        <br />
-                        <Link href="#" className="px-5 py-2 border border-black hover:bg-black hover:text-white font-bold">Read more</Link>
-                    </div>
-                </section>
+                    </section>
+                </Link>
 
                 <section id="works_products" className="flex flex-col py-[48px] px-[132px] gap-[24px] bg-black text-white">
                     <div className="flex justify-between">
