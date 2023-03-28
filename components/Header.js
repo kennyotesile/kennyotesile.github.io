@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function() {
     return (
-        <div className="flex h-[68px] mx-[24px] md:mx-[132px] items-center justify-between border-b-[1px] border-black">
+        <div className="flex h-[68px] mx-[24px] md:mx-[132px] items-center justify-between border-b-[1px] border-black dark:border-white">
             <div>
                 <Link href="/" className="text-2xl font-bold">
                     {/* <Image src="/logo.svg" width={200} height={68} /> */}

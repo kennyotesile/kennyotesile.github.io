@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function() {
     return (
-        <div className="py-[24px] px-[24px] md:px-[132px] bg-black text-white flex flex-col gap-6">
+        <div className="py-[24px] px-[24px] md:px-[132px] bg-black dark:bg-white text-white dark:text-black flex flex-col gap-6">
             <div className="flex flex-col md:flex-row gap-6  justify-between">
                 <div>
                     <Link href="/" className="text-2xl font-bold">
@@ -30,14 +30,14 @@ export default function() {
                 </div>
             </div>
 
-            <div className="flex gap-x-8 mt-[-4px]">
-                <p className="text-sm text-gray-200 leading-[22px]">&copy; 2023 Kehinde Otesile</p>
+            <div className="flex gap-x-8 mt-[-4px] text-gray-200 dark:text-gray-500">
+                <p className="text-sm leading-[22px]">&copy; 2023 Kehinde Otesile</p>
                 <ul className="flex gap-x-8">
                     <li>
-                        <Link href="/about" className="text-sm text-gray-200">About</Link>
+                        <Link href="/about" className="text-sm">About</Link>
                     </li>
                     <li>
-                        <Link href="/contact" className="text-sm text-gray-200">Contact</Link>
+                        <Link href="/contact" className="text-sm">Contact</Link>
                     </li>
                 </ul>
             </div>
