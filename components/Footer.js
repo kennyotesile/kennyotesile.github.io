@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function() {
     return (
-        <div className="py-[24px] px-[132px] bg-black text-white">
-            <div className="flex justify-between">
+        <div className="py-[24px] px-[24px] md:px-[132px] bg-black text-white flex flex-col gap-6">
+            <div className="flex flex-col md:flex-row gap-6  justify-between">
                 <div>
                     <Link href="/" className="text-2xl font-bold">
                         {/* <Image src="/logo.svg" width={200} height={68} /> */}
@@ -30,9 +30,7 @@ export default function() {
                 </div>
             </div>
 
-            <br />
-
-            <div className="flex gap-x-8">
+            <div className="flex gap-x-8 mt-[-4px]">
                 <p className="text-sm text-gray-200 leading-[22px]">&copy; 2023 Kehinde Otesile</p>
                 <ul className="flex gap-x-8">
                     <li>
