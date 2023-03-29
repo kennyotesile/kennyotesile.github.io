@@ -51,7 +51,7 @@ export default function Home() {
                         <div className="w-full md:w-1/3">
                             <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
                             <br />
-                            <h2 className="font-bold text-2xl">Amobern – a sophisticated ecommerce app</h2>
+                            <h2 className="font-bold text-2xl">Amobern App – a sophisticated ecommerce app</h2>
                             <br />
                             <p className="text-gray-200 dark:text-gray-500">Ecommerce &nbsp;•&nbsp; Java, Spring, Elasticsearch, JavaScript, React (Next.js), etc.</p>
                             <br />
