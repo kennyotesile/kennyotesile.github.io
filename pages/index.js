@@ -24,14 +24,14 @@ export default function Home() {
 
                 <section id="hero" className="flex flex-col my-[64px] px-[24px] md:px-[264px] gap-[48px] items-center">
                     <div className="mb-8">
-                        <h1 className="text-5xl md:text-6xl font-bold text-center">Unulax Business – an enterprise business management platform</h1>
+                        <h1 className="text-5xl md:text-6xl font-bold text-center">Unulax Commerce – an enterprise ecommerce management platform</h1>
                         <br />
-                        <p className="text-center text-lg">I designed and developed a SaaS solution for business managers to efficiently manage inventory, ecommerce, CRM, finance and other aspects of their businesses.</p>
+                        <p className="text-center text-lg">I designed and developed a SaaS solution for business managers to efficiently manage inventory, ecommerce stores, CRM, finance and other aspects of their businesses.</p>
                         <br />
                         <p className="text-gray-600 dark:text-gray-400 text-center">Ecommerce, CMS, CRM &nbsp;•&nbsp; Java, Spring, JavaScript, React (Next.js), AWS, etc.</p>
                         <br />
                         <div className="text-center mt-4">
-                            <Link href="/works/unulax-business" className="px-5 py-2 border border-black dark:border-white hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black font-bold">Read more</Link>
+                            <Link href="/works/unulax-commerce" className="px-5 py-2 border border-black dark:border-white hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black font-bold">Read more</Link>
                         </div>
                     </div>
                     <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
@@ -39,7 +39,7 @@ export default function Home() {
 
                 <section id="works_products" className="flex flex-col py-[48px] pb-[56px] px-[24px] md:px-[132px] gap-[32px] bg-black dark:bg-white text-white dark:text-black">
                     <div id="about" className="pb-[32px] text-gray-200 dark:text-gray-800 text-3xl md:text-4xl font-bold w-full md:w-[80%]">
-                    I am Kenny Otesile. I am a self-taught computer scientist, AI software engineer, and entrepreneur. I, with teams of designers and other software engineers, designed and developed Unulax Business, Amobern App, Amobern Pay, and other enterprise projects.
+                    I am Kenny Otesile. I am a computer scientist (software engineer), AI enthusiast, and entrepreneur. I, with teams of designers and other software engineers, designed and developed Unulax Commerce, Amobern App, Amobern Pay, and other enterprise projects.
                     </div>
 
                     <div className="flex justify-between">
@@ -51,7 +51,7 @@ export default function Home() {
                         <div className="w-full md:w-1/3">
                             <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
                             <br />
-                            <h2 className="font-bold text-2xl">Amobern App – a sophisticated ecommerce app</h2>
+                            <h2 className="font-bold text-2xl">Amobern App – an ecommerce store</h2>
                             <br />
                             <p className="text-gray-200 dark:text-gray-500">Ecommerce &nbsp;•&nbsp; Java, Spring, Elasticsearch, JavaScript, React (Next.js), etc.</p>
                             <br />
