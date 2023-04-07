@@ -12,11 +12,11 @@ const dmSans = DM_Sans({
     subsets: ["latin"],
 })
 
-export default function Home() {
+export default function Contact() {
     return (
         <>
             <Head>
-                <title>Kenny Otesile</title>
+                <title>Contact – Kenny Otesile – Computer scientist and entrepreneur</title>
             </Head>
             
             <div className={dmSans.className}>

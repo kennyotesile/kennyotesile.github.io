@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Kenny Otesile – Entrepreneur computer scientist</title>
+                <title>Kenny Otesile – Computer scientist and entrepreneur</title>
             </Head>
             
             <div className={[dmSans.className, ""].join(" ")}>
@@ -38,8 +38,8 @@ export default function Home() {
                 </section>
 
                 <section id="works_products" className="flex flex-col py-[48px] pb-[56px] px-[24px] md:px-[132px] gap-[32px] bg-black dark:bg-white text-white dark:text-black">
-                    <div id="about" className="pb-[32px] text-gray-200 dark:text-gray-800 text-3xl md:text-4xl font-bold w-full md:w-[80%]">
-                    I am Kenny Otesile. I am a computer scientist (software engineer), AI enthusiast, and entrepreneur. I, with teams of designers and other software engineers, designed and developed Unulax Commerce, Amobern App, Amobern Pay, and other enterprise projects.
+                    <div id="about" className="pb-[32px] text-gray-200 dark:text-gray-800 text-3xl md:text-4xl font-medium w-full md:w-[80%]">
+                        I am Kenny Otesile, a computer scientist, AI software engineer, and entrepreneur. I created <Link href="#" className="border-white/30 border-b-[3.5px] hover:border-white transition-[border-bottom] duration-300 ease-in-out">Yotta AI</Link> and other enterprise products.
                     </div>
 
                     <div className="flex justify-between">

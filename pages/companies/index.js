@@ -16,7 +16,7 @@ export default function Companies() {
     return (
         <>
             <Head>
-                <title>Companies – Kenny Otesile</title>
+                <title>Companies – Kenny Otesile – Computer scientist and entrepreneur</title>
             </Head>
             
             <div className={dmSans.className}>
