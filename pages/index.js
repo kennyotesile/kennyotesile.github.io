@@ -24,22 +24,22 @@ export default function Home() {
 
                 <section id="hero" className="flex flex-col my-[64px] px-[24px] md:px-[264px] gap-[48px] items-center">
                     <div className="mb-8">
-                        <h1 className="text-5xl md:text-6xl font-bold text-center">Unulax Commerce – an enterprise ecommerce management platform</h1>
+                        <h1 className="text-5xl md:text-6xl font-bold text-center">Unulax Business – an enterprise business and commerce management platform</h1>
                         <br />
                         <p className="text-center text-lg">I designed and developed a SaaS solution for business managers to efficiently manage inventory, ecommerce stores, CRM, finance and other aspects of their businesses.</p>
                         <br />
                         <p className="text-gray-600 dark:text-gray-400 text-center">Ecommerce, CMS, CRM &nbsp;•&nbsp; Java, Spring, JavaScript, React (Next.js), AWS, etc.</p>
                         <br />
                         <div className="text-center mt-4">
-                            <Link href="/works/unulax-commerce" className="px-5 py-2 border border-black dark:border-white hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black font-bold">Read more</Link>
+                            <Link href="/works/unulax-business" className="px-5 py-2 border border-black dark:border-white hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black font-bold">Read more</Link>
                         </div>
                     </div>
                     <Image src="/homepage-hero_2.svg" alt="" width={568} height={408} />
                 </section>
 
                 <section id="works_products" className="flex flex-col py-[48px] pb-[56px] px-[24px] md:px-[132px] gap-[32px] bg-black dark:bg-white text-white dark:text-black">
-                    <div id="about" className="pb-[32px] text-gray-200 dark:text-gray-800 text-3xl md:text-4xl font-medium w-full md:w-[80%]">
-                        I am Kenny Otesile, a computer scientist, AI software engineer, and entrepreneur. I created <Link href="#" className="border-white/30 border-b-[3.5px] hover:border-white transition-[border-bottom] duration-300 ease-in-out">Yotta AI</Link> and other enterprise products.
+                    <div id="about" className="pb-[32px] text-gray-200 dark:text-gray-800 text-3xl md:text-4xl font-semibold w-full md:w-[80%]">
+                        I am Kenny Otesile, a computer scientist, AI software engineer, and entrepreneur. I created <Link href="#" className="border-white/30 border-b-[3.5px] hover:border-white transition-[border-bottom] duration-300 ease-in-out">Unulax Business</Link> and other enterprise products.
                     </div>
 
                     <div className="flex justify-between">
