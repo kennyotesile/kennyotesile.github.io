@@ -19,7 +19,7 @@ export default function Home() {
                 <title>Kenny Otesile – Computer scientist and entrepreneur</title>
             </Head>
             
-            <div className={[dmSans.className, ""].join(" ")}>
+            {/* <div className={[dmSans.className, ""].join(" ")}>
                 <Header />
 
                 <section id="hero" className="flex flex-col my-[64px] px-[24px] md:px-[264px] gap-[48px] items-center">
@@ -191,6 +191,24 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                </section>
+
+                <Footer />
+            </div> */}
+
+            <div className={dmSans.className}>
+                <Header />
+
+                <section id="about" className="py-[48px] px-[24px] md:px-[132px]">
+                    <article className="lg:w-[60%]">
+                        <h1 className="font-bold text-5xl">Kenny Otesile</h1>
+                        <br />
+                        <p>Kenny Otesile is an entrepreneur and computer scientist. He is the Founder of <Link href="https://unulax.com" target="_blank" className="border-b-[1px] border-black hover:border-b-[2px]">Unulax</Link>; and Co-Founder and Principal Consultant of <Link href="https://amoberntech.com" target="_blank" className="border-b-[1px] border-black hover:border-b-[2px]">Amobern Technologies</Link>.</p>
+                        <br />
+                        <p>Skilled in computer programming and software engineering, Kenny's work cuts across full-stack software engineering, and software design and architecture. He is interested in the intersection of artificial intelligence with society, such as in finance technology, and human-computer interaction.</p>
+                        <br />
+                        <p>He is currently building <Link href="https://unulax.com" target="_blank" className="border-b-[1px] border-black hover:border-b-[2px]">an integrated suite of AI-powered products for work, play, and more</Link>. Via <Link href="https://amoberntech.com" target="_blank" className="border-b-[1px] border-black hover:border-b-[2px]">Amobern Technologies</Link>, he advises and provides professional services to companies innovating their processes and products with technology.</p>
+                    </article>
                 </section>
 
                 <Footer />

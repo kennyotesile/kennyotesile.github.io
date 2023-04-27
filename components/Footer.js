@@ -31,13 +31,14 @@ export default function() {
             </div>
 
             <div className="flex gap-x-8 mt-[-4px] text-gray-200 dark:text-gray-500">
-                <p className="text-sm leading-[22px]">&copy; 2023 Kehinde Otesile</p>
+                {/* <p className="text-sm leading-[22px]">&copy; 2023 Kehinde Otesile</p> */}
                 <ul className="flex gap-x-8">
-                    <li>
+                    {/* <li>
                         <Link href="/about" className="text-sm">About</Link>
-                    </li>
+                    </li> */}
                     <li>
-                        <Link href="/contact" className="text-sm">Contact</Link>
+                        {/* <Link href="/contact" className="text-sm">Contact</Link> */}
+                        <Link href="mailto:kennyotesile@gmail.com" className="text-sm">Contact</Link>
                     </li>
                 </ul>
             </div>
