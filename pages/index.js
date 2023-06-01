@@ -16,7 +16,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Kenny Otesile – Entrepreneur and Computer Scientist</title>
+				<title>Kenny Otesile – Entrepreneur, Computer Scientist, Founder of Medddula</title>
 			</Head>
 
 			{/* <div className={[dmSans.className, ""].join(" ")}>
