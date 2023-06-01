@@ -1,25 +1,25 @@
-import Head from "next/head"
-import styles from "../styles/Home.module.css"
-import { DM_Sans } from "next/font/google"
-import Image from "next/image"
-import Header from "@/components/Header.js"
-import Link from "next/link"
-import Footer from "@/components/Footer"
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import { DM_Sans } from "next/font/google";
+import Image from "next/image";
+import Header from "@/components/Header.js";
+import Link from "next/link";
+import Footer from "@/components/Footer";
 
 const dmSans = DM_Sans({
-    weight: ["400", "500", "700"],
-    style: ["normal", "italic"],
-    subsets: ["latin"],
-})
+	weight: ["400", "500", "700"],
+	style: ["normal", "italic"],
+	subsets: ["latin"],
+});
 
 export default function Home() {
-    return (
-        <>
-            <Head>
-                <title>Kenny Otesile – Entrepreneur and Computer Scientist</title>
-            </Head>
-            
-            {/* <div className={[dmSans.className, ""].join(" ")}>
+	return (
+		<>
+			<Head>
+				<title>Kenny Otesile – Entrepreneur and Computer Scientist</title>
+			</Head>
+
+			{/* <div className={[dmSans.className, ""].join(" ")}>
                 <Header />
 
                 <section id="hero" className="flex flex-col my-[64px] px-[24px] md:px-[264px] gap-[48px] items-center">
@@ -196,23 +196,28 @@ export default function Home() {
                 <Footer />
             </div> */}
 
-            <div className={dmSans.className}>
-                <Header />
+			<div className={dmSans.className}>
+				<Header />
 
-                <section id="about" className="py-[48px] px-[24px] md:px-[132px]">
-                    <article className="lg:w-[60%]">
-                        <h1 className="font-bold text-5xl">Kenny Otesile</h1>
-                        <br />
-                        <p>Kenny Otesile is an entrepreneur and computer scientist. He is the Founder of <Link href="https://unulax.com" target="_blank" className="border-b-[1px] border-black hover:border-b-[2px]">Unulax</Link>; and Co-Founder and Principal Consultant of <Link href="https://amoberntech.com" target="_blank" className="border-b-[1px] border-black hover:border-b-[2px]">Amobern Technologies</Link>.</p>
-                        <br />
-                        <p>Skilled in computer programming and software engineering, Kenny's work cuts across full-stack software engineering, and software design and architecture. He is interested in the intersection of artificial intelligence with society, such as in finance technology, and human-computer interaction.</p>
-                        <br />
-                        <p>He is currently building <Link href="https://unulax.com" target="_blank" className="border-b-[1px] border-black hover:border-b-[2px]">an integrated suite of AI-powered products for work, play, and more</Link>. Via <Link href="https://amoberntech.com" target="_blank" className="border-b-[1px] border-black hover:border-b-[2px]">Amobern Technologies</Link>, he advises and provides professional services to companies innovating their processes and products with technology.</p>
-                    </article>
-                </section>
+				<section id="about" className="py-[48px] px-[24px] md:px-[132px]">
+					<article className="lg:w-[60%]">
+						<h1 className="font-bold text-5xl">Kenny Otesile</h1>
+						<br />
+						<p>
+							Kenny Otesile is an entrepreneur and computer scientist. He is the Founder and CEO of{" "}
+							<Link href="#" target="_blank" className="border-b-[1px] border-black dark:border-white hover:border-b-[2px]">
+								Medddula
+							</Link>
+							, a comprehensive online tech skills education and professional platform for beginner and experienced tech professionals to customize their learning experiences and access tailored career opportunities.
+						</p>
+						<br />
+						<p>He is interested in the intersection of artificial intelligence with society, such as in finance technology, and human-computer interaction.</p>
+						<br />
+					</article>
+				</section>
 
-                <Footer />
-            </div>
-        </>
-    );
+				<Footer />
+			</div>
+		</>
+	);
 }
