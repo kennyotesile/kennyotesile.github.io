@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function() {
+export default function () {
     return (
         <div className="flex h-[68px] mx-[24px] md:mx-[132px] items-center justify-between border-b-[1px] border-black dark:border-white">
             <div>
@@ -13,6 +13,15 @@ export default function() {
             <div className="flex">
                 <nav className="flex items-center hidden md:inline-block">
                     <ul className="flex items-center gap-x-8 mr-8">
+                        <li>
+                            <Link href="#">COMPANIES</Link>
+                        </li>
+                        <li>
+                            <Link href="#">ARTIFICIAL INTELLIGENCE</Link>
+                        </li>
+                        <li>
+                            <Link href="#">ABOUT</Link>
+                        </li>
                         {/* <li>
                             <Link href="/products">PRODUCTS</Link>
                         </li>
