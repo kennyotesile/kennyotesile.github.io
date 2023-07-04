@@ -1,57 +1,61 @@
 :root {
-  --border-radius: 8px;
-  
-  --background-color: #fff;
-  --whitespace-color: #fff;
-  --input-background-color: rgba(0, 0, 0, 0.15);
-  --hover-background-color: rgba(0, 0, 0, 0.07);
+	--border-radius: 8px;
 
-  --text-primary-color: #000;
+	--background-color: #fff;
+	--whitespace-color: #fff;
+	--input-background-color: rgba(0, 0, 0, 0.15);
+	--hover-background-color: rgba(0, 0, 0, 0.07);
 
-  --icon-primary-color: #000;
+	--text-primary-color: #000;
 
-  --border-primary-color: #000;
+	--icon-primary-color: #000;
+
+	--border-primary-color: #000;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #000;
-    --whitespace-color: rgb(20, 20, 20);
-    --input-background-color: rgba(255, 255, 255, 0.15);
-    --hover-background-color: rgba(255, 255, 255, 0.1);
+	:root {
+		--background-color: #000;
+		--whitespace-color: rgb(20, 20, 20);
+		--input-background-color: rgba(255, 255, 255, 0.15);
+		--hover-background-color: rgba(255, 255, 255, 0.1);
 
-    --text-primary-color: #fff;
+		--text-primary-color: #fff;
 
-    --icon-primary-color: #fff;
+		--icon-primary-color: #fff;
 
-    --border-primary-color: #fff;
-  }
+		--border-primary-color: #fff;
+	}
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  font-size: 14px;
+	max-width: 100vw;
+	overflow-x: hidden;
+	font-size: 14px;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+	html {
+		color-scheme: dark;
+	}
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ion-icon {
+	font-size: 20px;
+}

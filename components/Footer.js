@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function() {
+export default function () {
     return (
         <div className="py-[24px] px-[24px] md:px-[132px] bg-black dark:bg-white text-white dark:text-black flex flex-col gap-6">
             <div className="flex flex-col md:flex-row gap-6  justify-between">
@@ -13,32 +13,31 @@ export default function() {
                 </div>
                 <div className="flex items-center gap-x-8">
                     <Link href="https://youtube.com/@kennyotesile" target="_blank">
-                        <ion-icon name="logo-youtube" size="small"></ion-icon>
+                        <ion-icon name="logo-youtube"></ion-icon>
                     </Link>
                     <Link href="https://twitter.com/kennyotesile" target="_blank">
-                        <ion-icon name="logo-twitter" size="small"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
                     </Link>
                     <Link href="https://linkedin.com/in/kennyotesile" target="_blank">
-                        <ion-icon name="logo-linkedin" size="small"></ion-icon>
+                        <ion-icon name="logo-linkedin"></ion-icon>
                     </Link>
                     <Link href="https://instagram.com/kennyotesile" target="_blank">
-                        <ion-icon name="logo-instagram" size="small"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
                     </Link>
                     <Link href="https://facebook.com/thekennyotesile" target="_blank">
-                        <ion-icon name="logo-facebook" size="small"></ion-icon>
+                        <ion-icon name="logo-facebook"></ion-icon>
                     </Link>
                 </div>
             </div>
 
             <div className="flex gap-x-8 mt-[-4px] text-gray-200 dark:text-gray-500">
-                {/* <p className="text-sm leading-[22px]">&copy; 2023 Kehinde Otesile</p> */}
+                <p className="text-base leading-[1.75rem]">&copy; 2023 Kehinde Otesile</p>
                 <ul className="flex gap-x-8">
-                    {/* <li>
-                        <Link href="/about" className="text-sm">About</Link>
-                    </li> */}
                     <li>
-                        {/* <Link href="/contact" className="text-sm">Contact</Link> */}
-                        <Link href="mailto:kennyotesile@gmail.com" className="text-sm">Contact</Link>
+                        <Link href="/" className="text-base">About</Link>
+                    </li>
+                    <li>
+                        <Link href="mailto:kennyotesile@gmail.com" className="text-base">Contact</Link>
                     </li>
                 </ul>
             </div>

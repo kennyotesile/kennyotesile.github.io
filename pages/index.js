@@ -7,19 +7,19 @@ import Link from "next/link";
 import Footer from "@/components/Footer";
 
 const dmSans = DM_Sans({
-	weight: ["400", "500", "700"],
-	style: ["normal", "italic"],
-	subsets: ["latin"],
+    weight: ["400", "500", "700"],
+    style: ["normal", "italic"],
+    subsets: ["latin"],
 });
 
 export default function Home() {
-	return (
-		<>
-			<Head>
-				<title>Kenny Otesile – Entrepreneur, Computer Scientist, Founder of Medddula</title>
-			</Head>
+    return (
+        <>
+            <Head>
+                <title>Kenny Otesile – Computer Scientist and Entrepreneur</title>
+            </Head>
 
-			{/* <div className={[dmSans.className, ""].join(" ")}>
+            {/* <div className={[dmSans.className, ""].join(" ")}>
                 <Header />
 
                 <section id="hero" className="flex flex-col my-[64px] px-[24px] md:px-[264px] gap-[48px] items-center">
@@ -196,28 +196,23 @@ export default function Home() {
                 <Footer />
             </div> */}
 
-			<div className={dmSans.className}>
-				<Header />
+            <div className={dmSans.className}>
+                <Header />
 
-				<section id="about" className="py-[48px] px-[24px] md:px-[132px]">
-					<article className="lg:w-[60%]">
-						<h1 className="font-bold text-5xl">Kenny Otesile</h1>
-						<br />
-						<p>
-							Kenny Otesile is an entrepreneur and computer scientist. He is the Founder and CEO of{" "}
-							<Link href="#" target="_blank" className="border-b-[1px] border-black dark:border-white hover:border-b-[2px]">
-								Medddula
-							</Link>
-							, a comprehensive online tech skills education and professional platform for beginner and experienced tech professionals to customize their learning experiences and access tailored career opportunities.
-						</p>
-						<br />
-						<p>He is interested in the intersection of artificial intelligence with society, such as in finance technology, and human-computer interaction.</p>
-						<br />
-					</article>
-				</section>
+                <section id="about" className="py-[48px] px-[24px] md:px-[132px]">
+                    <article className="lg:w-[60%]">
+                        <h1 className="font-bold text-5xl">Kenny Otesile</h1>
+                        <br />
+                        <p className="mb-4">Kenny Otesile is a computer scientist with a proven track record of successfully developing and managing complex software projects. He is experienced in leading teams and delivering exceptional results</p>
+                        <p className="mb-4">Kenny is proficient in Java, JavaScript, Spring (including Spring Boot and Spring MVC), React, and various other frameworks and tools. He has extensive knowledge in data structures, algorithms, software design, and system architecture.</p>
+                        <p className="mb-4">He is eager to leverage expertise to drive innovation and deliver cutting-edge solutions. He is open to new opportunities in a dynamic and collaborative environment.</p>
+                        <br />
+                        <Link href="https://drive.google.com/file/d/1z3PbM4hN5HmLkyDdvFfg9jCQDCU5UikT/view?usp=sharing" target="_blank" className="px-5 py-2 border border-black dark:border-white hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black font-medium">See Kenny's resume</Link>
+                    </article>
+                </section>
 
-				<Footer />
-			</div>
-		</>
-	);
+                <Footer />
+            </div>
+        </>
+    );
 }

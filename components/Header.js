@@ -13,27 +13,21 @@ export default function () {
             <div className="flex">
                 <nav className="flex items-center hidden md:inline-block">
                     <ul className="flex items-center gap-x-8 mr-8">
-                        <li>
-                            <Link href="#">COMPANIES</Link>
-                        </li>
-                        <li>
-                            <Link href="#">ARTIFICIAL INTELLIGENCE</Link>
-                        </li>
-                        <li>
-                            <Link href="#">ABOUT</Link>
-                        </li>
                         {/* <li>
-                            <Link href="/products">PRODUCTS</Link>
+                            <Link href="#">CS</Link>
                         </li>
                         <li>
-                            <Link href="/research">RESEARCH</Link>
+                            <Link href="#">AI</Link>
                         </li>
                         <li>
-                            <Link href="/works">WORKS</Link>
-                        </li>
-                        <li>
-                            <Link href="/about">ME</Link>
+                            <Link href="#">NEWS</Link>
                         </li> */}
+                        <li>
+                            <Link href="/" className="font-medium">ABOUT</Link>
+                        </li>
+                        <li>
+                            <Link href="mailto:kennyotesile@gmail.com" className="font-medium">CONTACT</Link>
+                        </li>
                     </ul>
                 </nav>
                 <ul className="flex items-center gap-x-8">
