@@ -8,7 +8,7 @@ export default function Document() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="referrer" content="origin" />
 
-        <meta name="application-name" content="Kenny Otesile – Computer Scientist and Entrepreneur" />
+        <meta name="application-name" content="Kenny Otesile – Technology Consulting and Development" />
         <meta name="application-url" content="https://kennyotesile.com" />
         <meta name="author" content="Kenny Otesile" />
         <meta name="description" content="" /> {/* TODO: Add description */}
@@ -25,21 +25,21 @@ export default function Document() {
         <link rel="canonical" href="https://kennyotesile.com" />
 
         {/* Schema.org */}
-        <meta itemProp="name" content="Kenny Otesile – Computer Scientist and Entrepreneur" />
+        <meta itemProp="name" content="Kenny Otesile – Technology Consulting and Development" />
         <meta itemProp="description" content="" /> {/* TODO: Add description */}
 
         {/* Twitter Cards */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@kennyotesile" />
-        <meta name="twitter:title" content="Kenny Otesile – Computer Scientist and Entrepreneur" />
+        <meta name="twitter:title" content="Kenny Otesile – Technology Consulting and Development" />
         <meta name="twitter:description" content="" /> {/* TODO: Add description */}
         <meta name="twitter:image" content="" /> {/* TODO: add 1600x836 image content */}
 
         {/* Open Graph general (Facebook, Pinterest & Google+) */}
-        <meta name="og:title" content="Kenny Otesile – Computer Scientist and Entrepreneur" />
+        <meta name="og:title" content="Kenny Otesile – Technology Consulting and Development" />
         <meta name="og:description" content="" /> {/* TODO: Add description */}
         <meta name="og:url" content="https://kennyotesile.com" />
-        <meta name="og:site_name" content="Kenny Otesile – Computer Scientist and Entrepreneur" />
+        <meta name="og:site_name" content="Kenny Otesile – Technology Consulting and Development" />
         <meta name="og:locale" content="en_US" />
         <meta name="og:type" content="website" />
         <meta name="og:image" content="" /> {/* TODO: add 1600x836 image content */}
